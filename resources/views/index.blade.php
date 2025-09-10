@@ -29,7 +29,7 @@
                         <td>{{ $card->email }}</td>
                         <td>
                             <div class="d-flex gap-1">
-                                <a href="{{ route('show', $card->id) }}" class="btn btn-primary btn-sm">Visualizar</a>
+                                <a href="{{ route('show', $card->id) }}" class="btn btn-primary btn-sm">Detalhes</a>
 
                                 <a href="{{ route('edit', $card->id) }}" class="btn btn-warning btn-sm">Editar</a>
 
