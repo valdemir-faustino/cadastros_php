@@ -4,7 +4,7 @@
   <x-alert />
   <div class="card text-center">
   <div class="card-header">
-    <h5 class="card-title">Contato</h5>
+    <h5 class="card-title">Detalhe do contato</h5>
     <p> Nome: {{$card->name}}</p>
     <p> Cpf: {{$card->cpf}}</p>
     <p> E-mail: {{$card->email}}</p>
